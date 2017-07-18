@@ -1,1 +1,19 @@
-
+body {overflow-x: hidden;}
+header {
+  background-image: url(http://indianaparanormal.com/Holmes/IrvingtonCottage_rear.png);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display:inline-block;
+}
+.color {
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.8);
+  color:#fff;
+}
+#content {
+   height: 1000px;
+}
