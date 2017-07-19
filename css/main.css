@@ -1,4 +1,6 @@
 body {overflow-x: hidden;}
+
+/*Header*/
 header {
   background-image: url(http://indianaparanormal.com/Holmes/IrvingtonCottage_rear.png);
   background-size: cover;
@@ -7,13 +9,42 @@ header {
   width: 100%;
   height: 100vh;
   display:inline-block;
+  position: relative;
 }
-.color {
+header h1 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 2em;
+   width: 300px;
+   padding-left: 15px;
+}
+nav {
+   width: 550px;
+   position: absolute;
+   right: 0;
+   top: 30px;
+}
+nav, header h1 {
+   padding-top: 15px;
+}
+nav ul li {
+   display: inline;
+   margin-left: 35px;
+   font-family: 'Roboto', sans-serif;
+}
+#header-cover {
   width:100%;
   height:100%;
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(0,0,0,0.6);
   color:#fff;
 }
-#content {
-   height: 1000px;
+#hire-us {
+   border: 3px solid white;
+   padding: 15px 20px;
+}
+#our-mission {
+   position: absolute;
+   top: 50vh;
+   width: 50%;
+   margin: 0 auto;
+   border: 1px solid white;
 }
